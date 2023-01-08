@@ -787,6 +787,77 @@ setInterval(function() {
             }, 5000);
             
             </script>
+                  <div id="restaurant-menu" >
+                    <div class="section-title text-center center"style="background-image: url(./img/friet.png);" id="menus">
+                      <div class="overlay">
+                        <h2>Chinees menu</h2>
+                        <hr>
+                        <p>Overheerlijke keuzes uit ons Chinees menu!</p>
+                      </div>
+                    </div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <div class="menu-section">
+                            <h2 class="menu-section-title">Chinees menu</h2>
+                            <hr>
+                                <div class="menu-item">
+                                  <div class="menu-item-name"> Ajam pangang</div>
+                                  <div class="menu-item-price"> €10,00* </div>
+                                </div>
+                                <div class="menu-item">
+                                  <div class="menu-item-name"> Babi pangang</div>
+                                  <div class="menu-item-price"> €10,00* </div>
+                                </div>
+                                <div class="menu-item">
+                                  <div class="menu-item-name"> Bami bakje</div>
+                                  <div class="menu-item-price"> €4,50* </div>
+                                  <div class="menu-item-name"> Bami goreng</div>
+                                  <div class="menu-item-price"> €9,50* </div>
+                                </div>
+                                <div class="menu-item">
+                                  <div class="menu-item-name"> Foe yong hai</div>
+                                  <div class="menu-item-price"> €10,00* </div>
+                                  <div class="menu-item-name">  Kip chili</div>
+                                  <div class="menu-item-price"> €10,00* </div>
+                                </div>
+                                <div class="menu-item">
+                                  <div class="menu-item-name"> Kip kerrie</div>
+                                  <div class="menu-item-price"> €10,00* </div>
+                                  <div class="menu-item-name"> Kip ketjap</div>
+                                  <div class="menu-item-price"> €10,00* </div>
+                                </div>
+                                <div class="menu-item">
+                                  <div class="menu-item-name"> Kip pikant</div>
+                                  <div class="menu-item-price"> €10,00* </div>
+                                  <div class="menu-item-name"> Nasi bakje</div>
+                                  <div class="menu-item-price"> €4,50* </div>
+                                </div>
+                                <div class="menu-item">
+                                  <div class="menu-item-name"> Nasi goreng</div>
+                                  <div class="menu-item-price"> €9,50* </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="section-textt text-center center">
+                            <div class="overlay">
+                          <br>
+                          <p>* aan deze prijzen kunnen geen rechten worden ontleend. Prijzen in de Cafetaria zijn leidend.</p>
+                           
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        <script>
+                          let chinees = document.getElementById("chinees")
+                        setInterval(function() {
+                          var burgers = ["./img/friet.png", "./img/shoarma.jpg"]
+                          const random = burgers[Math.floor(Math.random() * burgers.length)];
+                          chinees.style.backgroundImage = `url(${random}`
+                        }, 5000);
+                        
+                        </script>
 <!-- Call Reservation Section 
 <div id="call-reservation" class="text-center">
   <div class="container">
